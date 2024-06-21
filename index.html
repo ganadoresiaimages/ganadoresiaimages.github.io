@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ganadores de IaImages</title>
+    <meta name="description" content="Página de ganadores de IaImages con políticas de privacidad y cookies.">
+    <meta name="keywords" content="ganadores, IaImages, privacidad, cookies">
     <link rel="stylesheet" href="styles.css">
-    <meta name="google-adsense-account" content="ca-pub-8141814098384866">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8141814098384866"
-     crossorigin="anonymous"></script>
+    <script src="scripts.js" defer></script>
+    <meta name="robots" content="index,follow">
 </head>
 <body>
     <header>
@@ -15,35 +16,76 @@
             <img src="https://p16-sign-useast2a.tiktokcdn.com/tos-useast2a-avt-0068-euttp/1a5f7591715b411e1d54c2e7a428720e~c5_100x100.jpeg?lk3s=a5d48078&nonce=44287&refresh_token=7a514936d3ff0378425955d32d81b53b&x-expires=1719072000&x-signature=qtI%2B24JaO56k04MoSPoRqg8sg%2FE%3D&shp=a5d48078&shcp=81f88b70" alt="Logo de la Marca">
         </div>
         <h1>Ganadores De IaImages</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#ganadores">Ganadores</a></li>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+            </ul>
+        </nav>
     </header>
-    <div class="container">
-        <img src="https://i.pinimg.com/736x/33/98/5b/33985bf2adfaaaebbab2ad0fbafee423.jpg" alt="Imagen del Ganador">
-        <h2>EL ÚLTIMO GUERRERO DE SU TRIBU</h2>
-        <p>Ganador: <a href="https://www.tiktok.com/@eliasag_thebarber?lang=es">Elias Barber</a></p>
-    </div>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8141814098384866"
-     crossorigin="anonymous"></script>
-<!-- Anuncios -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8141814098384866"
-     data-ad-slot="9223661311"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8141814098384866"
-     crossorigin="anonymous"></script>
-<!-- Anuncios 3 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8141814098384866"
-     data-ad-slot="6787896201"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
+    <main>
+        <section id="inicio">
+            <div class="container">
+                <img src="https://i.pinimg.com/736x/33/98/5b/33985bf2adfaaaebbab2ad0fbafee423.jpg" alt="Imagen del Ganador">
+                <h2>EL ÚLTIMO GUERRERO DE SU TRIBU</h2>
+                <p>Ganador: <a href="https://www.tiktok.com/@eliasag_thebarber?lang=es">Elias Barber</a></p>
+            </div>
+        </section>
+
+        <section id="ganadores">
+            <h2>Ganadores</h2>
+            <input type="text" id="searchInput" onkeyup="searchWinners()" placeholder="Buscar nombres...">
+            <ul id="winnerList">
+                <li>Elias Barber - <a href="https://www.tiktok.com/@eliasag_thebarber?lang=es">Perfil</a></li>
+                <!-- Añade más ganadores aquí -->
+            </ul>
+        </section>
+
+        <section id="sobre-nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>Información relevante sobre la empresa o el propósito del sitio web.</p>
+
+            <h3>Política de Privacidad</h3>
+            <p>Tu privacidad es importante para nosotros. Esta política explica cómo recopilamos, usamos y protegemos tu información.</p>
+            <p>Recopilamos información de los usuarios solo para mejorar nuestra experiencia de usuario y cumplir con las leyes aplicables.</p>
+            <h4>Información que recopilamos</h4>
+            <ul>
+                <li>Datos personales, como nombre y correo electrónico.</li>
+                <li>Datos de navegación, como IP y tipo de dispositivo.</li>
+            </ul>
+            <h4>Uso de la información</h4>
+            <p>Utilizamos la información para mejorar nuestros servicios, personalizar tu experiencia y cumplir con nuestras obligaciones legales.</p>
+            <h4>Protección de la información</h4>
+            <p>Implementamos medidas de seguridad para proteger tu información contra accesos no autorizados.</p>
+            <h4>Contacta con nosotros</h4>
+            <p>Para cualquier consulta sobre nuestra política de privacidad, contacta con nosotros en [tu correo electrónico].</p>
+
+            <h3>Política de Cookies</h3>
+            <p>Utilizamos cookies para mejorar la experiencia del usuario en nuestro sitio web. Aquí te explicamos qué son y cómo las utilizamos.</p>
+            <h4>¿Qué son las cookies?</h4>
+            <p>Las cookies son pequeños archivos de datos que se almacenan en tu dispositivo cuando visitas un sitio web.</p>
+            <h4>Tipos de cookies que utilizamos</h4>
+            <ul>
+                <li><strong>Cookies esenciales:</strong> Necesarias para que el sitio funcione correctamente.</li>
+                <li><strong>Cookies de rendimiento:</strong> Ayudan a mejorar la experiencia del usuario, como las cookies analíticas.</li>
+                <li><strong>Cookies de funcionalidad:</strong> Permiten recordar tus preferencias y configuraciones.</li>
+            </ul>
+            <h4>Gestión de cookies</h4>
+            <p>Puedes gestionar y desactivar las cookies desde la configuración de tu navegador. Consulta la ayuda de tu navegador para más detalles.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tu Sitio Web. Todos los derechos reservados.</p>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#ganadores">Ganadores</a></li>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>
